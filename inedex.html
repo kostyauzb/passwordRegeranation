@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Montserrat:ital@1&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <!-- //////////////////////////////////////////////////// header -->
+      <div class="header_container">
+        <h3 class="header_title">PTx1f5DaFX</h3>
+        <img src="./images/kopiya.svg" class="header_img" />
+      </div>
+      <!-- /////////////////////////////////////////////////////////////////////// main -->
+      <div class="main_container">
+        <div class="main_container_all">
+          <div class="main_title">
+            <h4>Character Length</h4>
+            <h1>10</h1>
+          </div>
+
+          <div class="main_input">
+            <div class="range">
+              <div class="field">
+                <input type="range" min="1" value="1" class="input" />
+              </div>
+            </div>
+          </div>
+
+          <div class="chekbok">
+            <input type="checkbox" class="chek_inp1" />
+            <h5 class="chek_h5">Include Uppercase Letters</h5>
+          </div>
+
+          <div class="chekbok">
+            <input type="checkbox" class="chek_inp2" />
+            <h5 class="chek_h5">Include Lowercase Letters</h5>
+          </div>
+
+          <div class="chekbok">
+            <input type="checkbox" class="chek_inp3" />
+            <h5 class="chek_h5">Include Numbers</h5>
+          </div>
+
+          <div class="chekbok">
+            <input type="checkbox" class="chek_inp4" />
+            <h5 class="chek_h5">Include Symbols</h5>
+          </div>
+
+          <div class="strenght">
+            <h3 id="strenght_title">STRENGTH</h3>
+            <h3 class="medium">MEDIUM</h3>
+            <div class="toldiruvchi">
+              <div class="tolish"></div>
+              <div class="tolish"></div>
+              <div class="tolish"></div>
+              <div class="tolish"></div>
+            </div>
+          </div>
+          <button class="btn_gen">
+            GENERATE <img src="./images/left.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
